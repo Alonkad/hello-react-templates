@@ -1,0 +1,4 @@
+<div rt-stateless class="panel" style="width: 100px; height: 150px; border: 1px solid black; position: relative;" rt-props="props">
+    panel
+    <button style="position: absolute; bottom: 0; right: 0;">Button</button>
+</div>

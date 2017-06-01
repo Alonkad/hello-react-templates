@@ -1,1 +1,38 @@
-<h2>Hello React Templates</h2>
+<rt-require dependency="./tasks/task1" as="task1" />
+<rt-require dependency="./tasks/task2" as="task2" />
+<rt-require dependency="./tasks/task3" as="task3" />
+<rt-require dependency="./tasks/task4" as="task4" />
+<rt-require dependency="./tasks/task5" as="task5" />
+<rt-require dependency="./tasks/task6" as="task6" />
+<rt-require dependency="./tasks/task7" as="task7" />
+<rt-require dependency="./tasks/task8" as="task8" />
+<rt-require dependency="./tasks/task9" as="task9" />
+<rt-require dependency="./tasks/task10" as="task10" />
+<rt-require dependency="./tasks/task11" as="task11" />
+<rt-require dependency="./tasks/task12" as="task12" />
+
+<div>
+    <task1></task1>
+    <hr />
+    <task2></task2>
+    <hr />
+    <task3></task3>
+    <hr />
+    <task4></task4>
+    <hr />
+    <task5></task5>
+    <hr />
+    <task6></task6>
+    <hr />
+    <task7></task7>
+    <hr />
+    <task8></task8>
+    <hr />
+    <task9></task9>
+    <hr />
+    <task10></task10>
+    <hr />
+    <task11></task11>
+    <hr />
+    <task12></task12>
+</div>

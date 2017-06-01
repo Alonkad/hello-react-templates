@@ -1,0 +1,29 @@
+<div class="task11">
+    <h2>Task11</h2>
+
+    <form>
+        <label>Type:</label>
+        <select valueLink="{this.linkState('type')}">
+            <option value=""></option>
+            <option rt-repeat="type in this.TYPES" value="{type}">{type}</option>
+        </select>
+
+        <br />
+
+        <label>From:</label>
+        <input type="text" valueLink="{this.linkState('from')}"/>
+
+        <br />
+
+        <label>name:</label>
+        <input type="text" valueLink="{this.linkState('name')}"/>
+
+        <br />
+        <button onClick="{this.onSubmit}">Submit</button>
+    </form>
+
+    <div class="results" rt-class="{loading: this.state.isLoading}">
+        <div>{this.state.response.message}</div>
+        <div>{this.state.response.subtitle}</div>
+    </div>
+</div>

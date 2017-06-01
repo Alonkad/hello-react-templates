@@ -1,0 +1,21 @@
+<div>
+    <h2>Task6</h2>
+
+    <label>Country: </label>
+    <select onChange="{this.onCountryChange}">
+        <option></option>
+        <option rt-repeat="country in this.COUNTRIES">{country}</option>
+    </select>
+
+    <br />
+
+    <label>City: </label>
+    <select onChange="{this.onCityChange}" value="{this.state.city}">
+        <option></option>
+        <option rt-repeat="city in this.CITIES[this.state.country]" value="{city}">{city}</option>
+    </select>
+
+    <br />
+
+    <button disabled="{!(this.state.country && this.state.city)}">Submit</button>
+</div>

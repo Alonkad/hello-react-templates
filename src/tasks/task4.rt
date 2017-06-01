@@ -1,0 +1,14 @@
+<div>
+    <h2>Task4</h2>
+
+    <div><a href="https://facebook.github.io/react/docs/two-way-binding-helpers.html" target="_blank">ReactLink</a> is deprecated as of React v15. The recommendation is to explicitly set the value and change handler, instead of using ReactLink.</div>
+    <div>This task uses a custom implementation</div>
+
+    <br />
+
+    <label for="long">long: </label><input type="text" id="long" placeholder="long" valueLink="{this.linkState('location.long')}" />
+    <br />
+    <label for="lat">lat: </label><input type="text" id="lat" placeholder="lat" valueLink="{this.linkState('location.lat')}"/>
+
+    <div>ShaiK is over-reacting at ({this.state.location.long}, {this.state.location.lat})</div>
+</div>

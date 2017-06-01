@@ -1,0 +1,12 @@
+<rt-import name="panel" as="panel" from="./task7-panel-comp.rt"/>
+
+<div>
+    <h2>Task7</h2>
+    <div>
+        The box below is a stateless panel component
+        <br />
+        The blue color is passed from outside
+    </div>
+    <br />
+    <panel style="{{color: '#0000FF'}}"></panel>
+</div>

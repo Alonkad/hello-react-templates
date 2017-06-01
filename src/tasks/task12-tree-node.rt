@@ -1,0 +1,5 @@
+<div rt-scope="this.getTreeNodeClass() as treeNode;" style="margin-left: 20px;">
+    <div style="padding: 5px 0;">{this.props.level}.{this.props.index} - {this.props.page.title}</div>
+    <!-- TODO: Use rt-if to toggle visibility on click -->
+    <treeNode rt-repeat="page in this.props.page.subpages" page="{page}" level="{this.props.level}.{this.props.index}" index="{pageIndex+1}"></treeNode>
+</div>

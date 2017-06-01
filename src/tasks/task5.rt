@@ -1,0 +1,17 @@
+<div>
+    <h2>Task5</h2>
+
+    <form>
+        <span># of fields: {this.state.fields.length}</span>
+        <br />
+        <button onClick="{this.onAddField}">Add Field</button>
+
+        <div id="fields-container">
+            <input rt-repeat="field in this.state.fields"
+                   type="text"
+                   onChange="(ev)=>console.log('Change: ', ev.target.value)"
+                   style="display: block"
+            />
+        </div>
+    </form>
+</div>

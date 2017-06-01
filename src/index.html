@@ -5,6 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Hello React Templates</title>
     <meta name="viewport" content="width=device-width">
+
+    <style type="text/css">
+        body {
+            margin-bottom: 200px;
+        }
+
+        .task10 .size {
+            font-size: 20px;
+        }
+
+        .task10 .color {
+            color: yellow;
+        }
+
+        .task11 .results {
+            margin-top: 20px;
+            min-height: 100px;
+            position: relative;
+        }
+
+        .task11 .results.loading:before {
+            content: "";
+            display: block;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: transparent url("http://loadinggif.com/images/image-selection/32.gif") center center no-repeat;
+        }
+    </style>
 </head>
 <body>
     <h1>Hello React Templates</h1>

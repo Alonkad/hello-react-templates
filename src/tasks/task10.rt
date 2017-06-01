@@ -1,0 +1,7 @@
+<div class="task10">
+    <h2>Task10</h2>
+
+    <button onClick="{this.changeTextSize}">Toggle Size</button>
+    <span style="padding: 0 10px" rt-class="this.state.textStyles">I am text</span>
+    <button onClick="{this.changeTextColor}">Toggle Color</button>
+</div>

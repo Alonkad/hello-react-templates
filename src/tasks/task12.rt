@@ -1,0 +1,12 @@
+<rt-import name="treeNode" as="treeNode" from="./task12-tree-node"/>
+
+<div>
+    <h2>Task12</h2>
+
+    <h4>1 - Normal Pages:</h4>
+    <treeNode rt-repeat="page in this.state.sections.normal" page="{page}" level="{1}" index="{pageIndex+1}"></treeNode>
+
+    <h4>2 - Blog Pages:</h4>
+    <treeNode rt-repeat="page in this.state.sections.blog" page="{page}" level="{2}" index="{pageIndex+1}"></treeNode>
+
+</div>
